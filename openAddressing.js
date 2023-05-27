@@ -96,7 +96,7 @@ function createHashTable(size = 10) {
     remove,
     has,
     getSize,
-    logTable
+    logTable,
   };
 }
 
@@ -109,4 +109,4 @@ console.log(hashTable.has("key2")); // Output: true
 hashTable.remove("key1");
 console.log(hashTable.getSize()); // Output: 1
 
-hashTable.logTable()
+hashTable.logTable();

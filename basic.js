@@ -2,24 +2,24 @@
 const hashTable = {};
 
 // Insert key-value pairs
-hashTable['name'] = 'John';
-hashTable['age'] = 30;
-hashTable['city'] = 'New York';
+hashTable["name"] = "John";
+hashTable["age"] = 30;
+hashTable["city"] = "New York";
 
 // Retrieve values using keys
-console.log(hashTable['name']); // Output: John
-console.log(hashTable['age']); // Output: 30
+console.log(hashTable["name"]); // Output: John
+console.log(hashTable["age"]); // Output: 30
 
 // Update existing value
-hashTable['age'] = 31;
-console.log(hashTable['age']); // Output: 31
+hashTable["age"] = 31;
+console.log(hashTable["age"]); // Output: 31
 
 // Delete a key-value pair
-delete hashTable['city'];
+delete hashTable["city"];
 
 // Check if a key exists
-console.log('age' in hashTable); // Output: true
-console.log('city' in hashTable); // Output: false
+console.log("age" in hashTable); // Output: true
+console.log("city" in hashTable); // Output: false
 
 // Get the number of key-value pairs
 console.log(Object.keys(hashTable).length); // Output: 2
